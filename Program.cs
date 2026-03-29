@@ -1,2 +1,9 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿
+using TP_MODUL5_103022400008;
+
+HaloGeneric hello = new HaloGeneric();
+
+Console.Write("Isi nama panggilan anda: ");
+String name = Console.ReadLine();
+
+hello.SapaUser<string>(name);
